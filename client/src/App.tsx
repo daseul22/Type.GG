@@ -5,11 +5,11 @@ import "./App.css";
 import Header from "./components/Header";
 import Menu from "./components/Menu";
 
-import HomePage from "./page/HomePage";
-import ChampionPage from "./page/ChampionPage";
-import RankingPage from "./page/RankingPage";
-import LoginPage from "./page/LoginPage";
-import CommunityPage from "./page/CommunityPage";
+import HomePage from "./pages/HomePage";
+import ChampionPage from "./pages/ChampionPage";
+import RankingPage from "./pages/RankingPage";
+import LoginPage from "./pages/LoginPage";
+import CommunityPage from "./pages/CommunityPage";
 
 function App() {
   return (
