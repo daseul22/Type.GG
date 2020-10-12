@@ -28,6 +28,7 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
+    "swr": "^0.3.5",
     "typesafe-actions": "^5.1.0",
     "typescript": "^3.7.5",
     "use-react-router": "^1.0.7"
