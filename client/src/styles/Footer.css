@@ -1,0 +1,63 @@
+.l-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.footer {
+  color: white;
+  width: 1080px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.footer_links {
+  display: flex;
+
+  line-height: 15px;
+  font-size: 12px;
+}
+.footer_links_item:first-child {
+  margin-left: 0;
+}
+.footer_links_item {
+  margin-left: 20px;
+}
+.footer_links_item a {
+  color: white;
+}
+
+.footer_copyright {
+  margin-top: 10px;
+  line-height: 1.5;
+  font-size: 11px;
+  width: 1000px;
+}
+.footer_sns {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-top: -16px;
+  line-height: 16px;
+  text-align: right;
+  font-size: 0;
+}
+.footer_sns_item {
+  margin-left: 10px;
+}
+
+.footer_sns_item i {
+  display: block;
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  background-position: center;
+}
+.footer_sns_item:nth-child(1) i {
+  background-image: url(https://icons.iconarchive.com/icons/limav/flat-gradient-social/24/Twitter-icon.png);
+}
+.footer_sns_item:nth-child(2) i {
+  background-image: url(https://icons.iconarchive.com/icons/limav/flat-gradient-social/24/Instagram-icon.png);
+}
+.footer_sns_item:nth-child(3) i {
+  background-image: url(https://icons.iconarchive.com/icons/danleech/simple/24/facebook-icon.png);
+}
