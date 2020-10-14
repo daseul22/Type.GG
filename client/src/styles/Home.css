@@ -1,0 +1,75 @@
+.index-logo {
+  padding: 32px 0 24px;
+}
+.index-logo img {
+  display: block;
+  max-height: 200px;
+  margin: 0 auto;
+}
+.summoner-search-form {
+  position: relative;
+  width: 624px;
+  margin: 0 auto;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.summoner-search-form_text {
+  display: block;
+  width: 100%;
+  padding: 15px 150px 18px 17px;
+  background: none;
+  border: none;
+  line-height: 17px;
+  font-size: 14px;
+  color: #9b9b9b;
+  box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+}
+.summoner-search-form_button {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px 10px 0 0;
+  height: 30px;
+  padding: 0;
+  border: none;
+}
+.summoner-search-form_setting {
+  position: absolute;
+  top: 0;
+  right: 70px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background: none;
+  border: none;
+  height: 30px;
+}
+
+.summoner-search-form_setting span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  padding: 1px 7px 2px 8px;
+  line-height: 13px;
+  font-size: 11px;
+  letter-spacing: -0.4px;
+  color: #fff;
+  background: #788185;
+}
+._spSite {
+  display: inline-block;
+  vertical-align: middle;
+  text-indent: -99999px;
+}
+._spSite42 {
+  width: 50px;
+  height: 30px;
+  background-image: url(https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbj5X89%2FbtqKOAKJQx0%2FF6YbQbO8dbHjd83Lors8Q0%2Fimg.png);
+}
+._spSite138 {
+  width: 7px;
+  height: 4px;
+  background-image: url(https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbxeMju%2FbtqKXiVtC2o%2F861pkkZv42ZEk2uj9YBKM1%2Fimg.png);
+}
