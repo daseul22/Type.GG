@@ -8,7 +8,7 @@ import { createStore, applyMiddleware, compose } from "redux";
 import ReduxThunk from "redux-thunk";
 import rootReducer from "./modules";
 import { composeWithDevTools } from "redux-devtools-extension";
-import { Router } from "react-router-dom";
+import { Router, BrowserRouter } from "react-router-dom";
 import { createBrowserHistory } from "history";
 import logger from "redux-logger";
 //import { deprecated, ActionType, createReducer } from 'typesafe-actions'; 최신버전
@@ -27,13 +27,15 @@ const store = createStore(
 );
 
 ReactDOM.render(
-  <Router history={customHistory}>
+  <React.StrictMode>
     <Provider store={store}>
-      <React.StrictMode>
-        <App />
-      </React.StrictMode>
+      <Router history={customHistory}>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </Router>
     </Provider>
-  </Router>,
+  </React.StrictMode>,
   document.getElementById("root")
 );
 
