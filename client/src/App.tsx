@@ -1,5 +1,10 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import {
+  Route,
+  Switch,
+  withRouter,
+  BrowserRouter as Router,
+} from "react-router-dom";
 import "./styles/App.css";
 
 import Header from "./components/Header";
@@ -20,11 +25,11 @@ function App() {
       <Menu />
       <div className="l-container">
         <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route path="/champion" component={ChampionPage} />
-          <Route path="/ranking" component={RankingPage} />
-          <Route path="/login" component={LoginPage} />
-          <Route path="/community" component={CommunityPage} />
+          <Route exact path="/" render={() => <HomePage />} />
+          <Route exact path="/champion" render={() => <ChampionPage />} />
+          <Route exact path="/ranking" render={() => <RankingPage />} />
+          <Route exact path="/login" render={() => <LoginPage />} />
+          <Route exact path="/community" render={() => <CommunityPage />} />
         </Switch>
       </div>
       <Footer />
