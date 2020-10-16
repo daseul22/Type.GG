@@ -73,3 +73,115 @@
   height: 4px;
   background-image: url(https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbxeMju%2FbtqKXiVtC2o%2F861pkkZv42ZEk2uj9YBKM1%2Fimg.png);
 }
+/* ================================ cearch bar =======================================*/
+
+/* =============================== community best ====================================*/
+.community-best {
+  margin-top: 30px;
+  min-height: 396px;
+  background: #fff;
+  border: solid 1px #e9eff4;
+}
+.community-best_header {
+  border-bottom: 1px solid #f0f0f0;
+}
+.community-best_title {
+  display: block;
+  padding: 17px 0 16px 20px;
+  line-height: 17px;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+.community-best_content-left {
+  width: 50%;
+  float: left;
+}
+.community-best_content-right {
+  width: 50%;
+  float: right;
+  border-left: 1px solid #f0f0f0;
+  box-sizing: border-box;
+}
+
+.community-article_list_item:first-child {
+  border-top: none;
+}
+.community-article_list_item {
+  border-top: 1px solid #f0f0f0;
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.community-article_list_item:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+.community-article_list_item_rank {
+  float: left;
+  line-height: 68px;
+  width: 55px;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: oblique;
+  color: #989898;
+  text-align: center;
+}
+.community-article_list_item_thumbnail {
+  float: left;
+  height: 56px;
+  padding: 6px 0 0;
+  margin-right: 20px;
+  width: 100px;
+  line-height: 56px;
+  text-align: center;
+  margin-bottom: 6px;
+  overflow: hidden;
+}
+.community-article_list_item_thumbnail img {
+  max-width: 100px;
+}
+.community-article_list_item_title {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 14px;
+  line-height: 17px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 300;
+}
+.community-article_list_item_title em {
+  color: #0475b8;
+  font-style: normal;
+}
+.community-article_list_item_sub {
+  margin-top: 6px;
+  color: #879292;
+  line-height: 15px;
+  font-size: 12px;
+}
+.community-article_list_item_sub_item {
+  display: inline-block;
+  vertical-align: middle;
+}
+.community-article_list_item_sub_item:before {
+  display: inline-block;
+  margin-left: 6px;
+  margin-right: 6px;
+  content: "";
+  border-left: 1px solid #d8d8d8;
+  height: 1px;
+  vertical-align: middle;
+}
+.timeago {
+  font-size: inherit;
+  cursor: help;
+}
