@@ -14,8 +14,7 @@
   font-weight: 500;
 }
 
-.menu_item:hover,
-a:hover {
+.menu_item:hover {
   color: white;
   border-bottom-color: white;
 }
